@@ -34,7 +34,7 @@ let displayResult = (obj) => {
     // create a '<li>' element
     let li = document.createElement('li');
     // add the name of this item as text into the new '<li>' element
-    li.textContent = item.name + " Site size is-" + item.km + "km";
+    li.textContent = item.name + ":  " + item.km + " km";
     // insert this new '<li>' element into the '<ul id="result">' element
     results.appendChild(li);
   });
